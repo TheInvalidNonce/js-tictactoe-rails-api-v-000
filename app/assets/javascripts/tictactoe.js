@@ -16,7 +16,7 @@ function player() {
 
 function updateState(square){
 //Invokes player() and adds the returned string ('X' or 'O') to the clicked square on the game board.
-  square.innerHTML += player()
+  square.innerHTML = player()
 }
 
 function setMessage(str) {
